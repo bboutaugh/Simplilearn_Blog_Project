@@ -1,0 +1,34 @@
+body *
+{
+    border: 2px solid red;
+}
+
+/*Navigation Styling*/
+.navigation
+{
+background-color: rgb(95, 90, 95);
+color: white;
+text-decoration:none;
+}
+
+.navigation .nav .nav-item a:hover
+{
+    background-color:rgb(165, 163, 163);
+    color: midnightblue;
+}
+
+.navigation a:visited
+{
+    background-color: rgb(95, 90, 95);
+    color: white;
+    text-decoration:none;
+}
+
+/*Main Content Styling*/
+.row
+{
+    min-height:200px;
+}
+
+
+
