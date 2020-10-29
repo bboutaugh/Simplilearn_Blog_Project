@@ -6,7 +6,7 @@ body *
 /*Navigation Styling*/
 .navigation
 {
-background-color: rgb(95, 90, 95);
+background-color: rgb(66, 66, 94);
 color: white;
 text-decoration:none;
 }
@@ -29,27 +29,54 @@ text-decoration:none;
 {
     background-color:rgb(1, 1, 39);
 }
-.container-fluid
+#home-container
 {
     background-image: url(images/library.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     font-family: 'Roboto', sans-serif;
+    
+}
+
+#header
+{
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    color:gold;
+    padding:10px;
+}
+
+#header h1
+{
+    padding:20px;
+    font-size: 100px;
 }
 
 .row
 {
-    min-height:100px;
+    min-height:80px;
 }
 
-#intro
+.home_text
 {
     background-color:rgb(95, 90, 95,0.75);
     color: white;
     padding: 15px;
 }
 
-#intro h1, h4{text-align: center;}
+.footer_text
+{
+    color: white;
+    padding: 15px;
+    font-size:25px;
+}
+
+.footer_text span
+{
+    font-size:25px;
+}
+
+.home_text h1, h4{text-align: center;}
 
 p{font-size:20px;}
 
@@ -58,7 +85,16 @@ p{font-size:20px;}
     background-image: url(images/dark_computer.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+    color: white;
+    padding: 15px;
 }
+
+.page_footer
+{
+background-color:rgb(66, 66, 94);
+}
+
+
 
 
 
