@@ -25,10 +25,44 @@ text-decoration:none;
 }
 
 /*Main Content Styling*/
+.blue-bg
+{
+    background-color:rgb(1, 1, 39);
+}
+.container-fluid
+{
+    background-image: url(images/library.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Roboto', sans-serif;
+}
+
 .row
 {
-    min-height:200px;
+    min-height:100px;
 }
+
+#intro
+{
+    background-color:rgb(95, 90, 95,0.75);
+    color: white;
+    padding: 15px;
+}
+
+#intro h1, h4{text-align: center;}
+
+p{font-size:20px;}
+
+#blog_row
+{
+    background-image: url(images/dark_computer.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+
+
 
 
 
