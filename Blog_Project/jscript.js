@@ -42,12 +42,18 @@ function confirmMessage()
     var phone = document.getElementById("contact_form").elements.phone.value;
     var message = document.getElementById("contact_form").elements.message.value;
 
-
-    alert(
+    if(name =="" || email == "" || phone =="" || message == "")
+    {
+        alert("Please fill out all form criteria.");
+    }
+    else
+    {
+      alert(
         "Thanks!..." + name + " we have noted your phone: " + phone +
          " and will contact you promptly at " + email + ". \n" + 
          "We will try to respond to the following message in the best way that we can...\n" +
-         message
-         
-    );
+         message 
+        );  
+    }
+    
 }
