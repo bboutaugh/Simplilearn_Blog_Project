@@ -34,3 +34,20 @@ function addBlog()
     divTarget.appendChild(newBlog);
 
 }
+
+function confirmMessage()
+{
+    var name = document.getElementById("contact_form").elements.name.value;
+    var email = document.getElementById("contact_form").elements.email.value;
+    var phone = document.getElementById("contact_form").elements.phone.value;
+    var message = document.getElementById("contact_form").elements.message.value;
+
+
+    alert(
+        "Thanks!..." + name + " we have noted your phone: " + phone +
+         " and will contact you promptly at " + email + ". \n" + 
+         "We will try to respond to the following message in the best way that we can...\n" +
+         message
+         
+    );
+}

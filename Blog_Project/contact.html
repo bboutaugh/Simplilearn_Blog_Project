@@ -45,13 +45,13 @@
             <div class="col-md-3"></div>
             <div class="col-md-6 contact">
               <h2>Please contact us via the form below and we will get back ASAP:</h2>
-              <form>
+              <form id="contact_form">
                 <label for="name">Name: </label><input type="text" name="name" required><br>
                 <label for="email">Email: </label><input type="text" name="email" required><br>
                 <label for="phone">Phone: </label><input type="text" name="phone" required><br>
-                <label for="message">Message:</label><textarea name="message" rows=10 cols="40"></textarea>
+                <label for="message">Message:</label><br><textarea name="message" rows=10 cols="40"></textarea>
                 <br>
-                <button type="button">Submit</button>
+                <button type="button" onclick="confirmMessage()">Submit</button>
               </form>
             </div>
             <div class="col-md-3"></div>
