@@ -34,15 +34,15 @@
     <div class="container-fluid">
 
         <!--Filler-->
-        <div class="row" id="header"><div class="col-md-12 blue-bg">
-          <h1>Web Cafe</h1>
+        <div class="row header"><div class="col-md-12 blue-bg">
+          <h1>Web Coffee</h1>
         </div></div>
 
         <!--BLOGS-->
         <div class="row">
-            <div class="col-md-3"></div>
+            <div class="col-md-3 blog_sides"></div>
             <div class="col-md-6 blog_col">
-                <div><!--Head of Blog Section-->
+                <div class="blog_intro"><!--Head of Blog Section-->
                     <h2>Latest Blogs</h2>
                     <p>Below are the latest blogs available for your reading. Don't reserve yourself to
                         that of passive observer. There is the option to add your own ideas further below. 
@@ -144,18 +144,18 @@
                          <label for="blog_title">Title</label><input type="text" name="blog_title" id="blog_title">
                          <label for="blog_category">Category</label>
                          <select id="blog_category" name="blog_category">
-                             <option>Select a category...</option>
+                             <option value="">Select a category...</option>
                              <option value="Programming Languages">Programming Languages</option>
                              <option value="Web Technologies">Web Technologies</option>
                              <option value="Best Practices">Best Practices</option>
                          </select>
                          <label for="blog_text">Blog Content</label>
-                         <textarea name="blog_text" id="blog_text" rows="14" cols="80"></textarea>
+                         <textarea name="blog_text" id="blog_text" rows="14" cols="60"></textarea>
                          <button type="button" onclick="addBlog()">Add Blog</button>
                      </form>                    
                 </div>
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-md-3 blog_sides"></div>
         </div>
        
         <!--Filler-->
@@ -169,13 +169,13 @@
         <div class="row">
           <div class="col-md"></div>
           <div class="col-md footer_text">
-            <span>Please Donate</span>
+            <span>Donations Welcome</span>
             <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-cup-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M1 2a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v1h.5A1.5 1.5 0 0 1 16 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-.55a2.5 2.5 0 0 1-2.45 2h-8A2.5 2.5 0 0 1 1 12.5V2zm13 10h.5a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5H14v8z"/>
             </svg>
           </div>
           <div class="col-md"></div>
-          <div class="col-md footer_text"><h4>Web Cafe</h4></div>
+          <div class="col-md footer_text"><h4>Web Coffee</h4></div>
         </div>
       </div>
 

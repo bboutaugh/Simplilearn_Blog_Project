@@ -27,6 +27,7 @@ function addBlog()
     newBlog.appendChild(newBlogP1);
     newBlog.appendChild(newBlogBR);
     newBlog.appendChild(newBlogP2);
+    newBlog.classList.add("blog");
 
     //Append div to target area
     var divTarget = document.getElementById("new_blogs");
