@@ -1,6 +1,7 @@
 body *
 {
     border: 2px solid red;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*Navigation Styling*/
@@ -33,9 +34,7 @@ text-decoration:none;
 {
     background-image: url(images/library.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
-    font-family: 'Roboto', sans-serif;
-    
+    background-size:cover;   
 }
 
 #header
@@ -96,7 +95,14 @@ background-color:rgb(66, 66, 94);
 
 
 
+/*Blog Styling */
 
+.blog_col
+{
+    /*background-image:url("images/staircase.jpg");*/
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 
 
 

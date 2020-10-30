@@ -1,0 +1,168 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet"> 
+    <!--Brad Boutaugh (1882299)
+        brad.boutaugh@tcs.com
+    -->
+
+</head>
+<body>
+    <!--NAVIGATION-->
+    <div class="navigation">
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blogs.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a> 
+            </li>
+          </ul>
+    </div>
+    <!--MAIN CONTENT-->
+    <div class="container-fluid">
+
+        <!--Filler-->
+        <div class="row" id="header"><div class="col-md-12 blue-bg">
+          <h1>Web Cafe</h1>
+        </div></div>
+
+        <!--BLOGS-->
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 blog_col">
+                <div><!--Head of Blog Section-->
+                    <h2>Latest Blogs</h2>
+                    <p>Below are the latest blogs available for your reading. Don't reserve yourself to
+                        that of passive observer. There is the option to add your own ideas further below. 
+                    </p>
+                </div>
+
+                <div class="blog"><!--Blog 1: CSS Tricks-->
+                    <h2>Some CSS Tricks</h2>
+                    <p>
+                        While there are a number of frameworks and libraries that assist with the development of a website,
+                        it's good practice to be able to handle styling in a tact and flexible way for those niche moments
+                        that may come your way. One such common trick to use in CSS is the 'vh' or 'view height' attribute 
+                        to get the element to fill the entire screen, at least from a vertical perspective. To apply vh you 
+                        would precede the attribute with the percentage of the fill as seen below.
+                    </p>
+                    <br>
+                    <p>.myheight{height: 90vh;} //for 90% of the screen height</p>
+                    <br>
+                    <p>This can be tricky to use given the wide array of screens that the content could be spread over. As 
+                        such consideration needs to be made to media query values. An additional little trick is to use the 
+                        ":before" and ":after" selectors to dynamically add additional content to a collection of sections.
+                        This could be a special postmark, logo, or text notice. Say a restaurant was fielding their menu on 
+                        their site and wanted a chile logo before certain menu items they could apply the ":before" selector 
+                        to each menu item that's exceptionally spicy. The CSS could look like this with the assumption that 
+                        the menu items are partitioned into divs.
+                    </p>
+                    <br>
+                    <p>.spicy_foods:before{content:url(./chile.png);}</p>
+                    <br>
+                    <p>In a similar example one could apply ":after" to apply anchor links to send the user back to the start
+                        of the page on demand. Such selectors and their possibilities are often overlooked within web styling.
+                    </p>
+                    <br>
+                    <p>Source: www.w3schools.com</p>
+                </div>
+
+                <div class="blog"><!--Blog 2: Future of JavaScript-->
+                    <h2>Future of JavaScript</h2>
+                    <p>
+                        JavaScript is dominating with respect to the field of web development. Indeed it seems to have become a 
+                        central component in the larger web ecosystem, but has it peaked in terms of its utility or has JavaScript 
+                        only just hit its stride? There are some machinations in the shadows that may support the latter notion. 
+                        These developments include the coming of TensorFlow.js, further advancements in the JavaScript engine V8,
+                        and the stable release of the JavaScript superset TypeScript. The future of technology is increasingly 
+                        resting on the idea of machine learning with neural networks being a keystone aspect of the field. 
+                        TensorFlow.js provides the power of neural nets towards learning paradigms that could actively divine 
+                        incredible analysis in elements such as network traffic and client behavioral patterns. While still in its infancy,
+                        pre-learned net conversion and visualization are recent features, TensorFlow.js can blossom into a powerhouse
+                        of information procurement thus advancing JavaScript as a premiere programming language on the web. With regard to
+                        advancements in the V8 engine which has helped elevate the relevancy of Node.j, it has only begun receiving major
+                        optimizations to bring it up to speed with other languages. As a loosely typed language, JavaScript is subject to 
+                        marginally less quick compilation but V8 additions such as TurboFan are providing just-in-time compilation. This 
+                        appears to be a part of a larger trend where in bottlenecks are being removed and JavaScript's hinderances are being 
+                        reduced. Finally, there is the entrance of TypeScript into primetime. In spite of annual advancements laid out by the 
+                        ECMA standards organization, JavaScript didn't really have a major work horse to enact those advancements. Enter
+                        TypeScript which builds out on top of JavaScript with more serious support for object oriented programming and more
+                        robust data structures. 
+                    </p>
+                    <p>Sources:</p>
+                    <ul>
+                        <li>https://en.wikipedia.org/wiki/TypeScript</li>
+                        <li>https://v8.dev/blog/ignition-interpreter</li>
+                        <li>https://www.tensorflow.org/js/tutorials</li>
+                        <li>https://www.freecodecamp.org/news/future-of-javascript/</li>
+                    </ul>
+                </div>
+
+                <div class="blog"><!--PHP vs JSP-->
+                    <h2>PHP versus JSP</h2>
+                    <p>
+                        Though it is not the most fair comparison considering Java Server Pages are an abstraction of Java Servlets and PHP, 
+                        or Hypertext Preprocessor, is a server side scripting language, both are generally used for server-side programming. To 
+                        that end, it is worth weighing their merits. Indeed, neither one nor the other could not necessarily be said to better. 
+                        On a general level, JSP technology far outweighs PHP in versatility and utility. JSP carries extensive library support,
+                        object caching, and session maintenance towards its primary benefit of web dynamism. By this comparison, it is a much 
+                        lighter package only supporting server-side transactions alongside a few other basic web solutions by extension of 
+                        its status as a general programming language. Otherwise, the dominance of one over the other is dependent on the situation.
+                        In spite of PHP's lack of robustness, it is also smaller and quicker then the JSP package. This makes PHP more ideal for 
+                        smaller applications and/or smaller technologies. To that end, PHP would appear to have a home in the world of IoT. 
+                        Outside of the realm of smaller enterprises though, JSP is the obvious choice. 
+                    </p>
+                    <br>
+                    <p>Sources:</p>
+                    <ul>
+                        <li> https://www.educba.com/jsp-vs-php/</li>
+                        <li>https://en.wikipedia.org/wiki/PHP</li>
+                        <li>https://en.wikipedia.org/wiki/Jakarta_Server_Pages</li>
+                    </ul>
+                </div>
+                <div class="add_blog">
+
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+       
+        <!--Filler-->
+        <div class="row blue-bg">
+            <div class="col-md-12"><img alt="" src=""></div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+      <div class="container-fluid page_footer">
+        <div class="row">
+          <div class="col-md"></div>
+          <div class="col-md footer_text">
+            <span>Please Donate</span>
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-cup-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M1 2a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v1h.5A1.5 1.5 0 0 1 16 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-.55a2.5 2.5 0 0 1-2.45 2h-8A2.5 2.5 0 0 1 1 12.5V2zm13 10h.5a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5H14v8z"/>
+            </svg>
+          </div>
+          <div class="col-md"></div>
+          <div class="col-md footer_text"><h4>Web Cafe</h4></div>
+        </div>
+      </div>
+
+    <!--JAVASCRIPT-->
+    <script src="./jscript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
