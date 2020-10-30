@@ -132,8 +132,27 @@
                         <li>https://en.wikipedia.org/wiki/Jakarta_Server_Pages</li>
                     </ul>
                 </div>
-                <div class="add_blog">
 
+                <div id="new_blogs">
+
+                </div>
+
+                <!--Add Blog Div-->
+                <div class="add_blog">
+                    <h4>Enter your own blog here:</h4>
+                     <form id="add_blog_form" onsubmit="">
+                         <label for="blog_title">Title</label><input type="text" name="blog_title" id="blog_title">
+                         <label for="blog_category">Category</label>
+                         <select id="blog_category" name="blog_category">
+                             <option>Select a category...</option>
+                             <option value="Programming Languages">Programming Languages</option>
+                             <option value="Web Technologies">Web Technologies</option>
+                             <option value="Best Practices">Best Practices</option>
+                         </select>
+                         <label for="blog_text">Blog Content</label>
+                         <textarea name="blog_text" id="blog_text" rows="14" cols="80"></textarea>
+                         <button type="submit">Add Blog</button>
+                     </form>                    
                 </div>
             </div>
             <div class="col-md-3"></div>
