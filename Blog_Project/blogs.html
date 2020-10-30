@@ -140,7 +140,7 @@
                 <!--Add Blog Div-->
                 <div class="add_blog">
                     <h4>Enter your own blog here:</h4>
-                     <form id="add_blog_form" onsubmit="">
+                     <form id="add_blog_form">
                          <label for="blog_title">Title</label><input type="text" name="blog_title" id="blog_title">
                          <label for="blog_category">Category</label>
                          <select id="blog_category" name="blog_category">
@@ -151,7 +151,7 @@
                          </select>
                          <label for="blog_text">Blog Content</label>
                          <textarea name="blog_text" id="blog_text" rows="14" cols="80"></textarea>
-                         <button type="submit">Add Blog</button>
+                         <button type="button" onclick="addBlog()">Add Blog</button>
                      </form>                    
                 </div>
             </div>
