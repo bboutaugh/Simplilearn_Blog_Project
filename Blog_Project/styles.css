@@ -152,3 +152,9 @@ background-color:rgb(66, 66, 94);
     background-repeat:no-repeat;
     background-size:cover;
 }
+
+/*About Styling*/
+.about_blogs
+{
+    height:100%;
+}
