@@ -41,10 +41,20 @@ function confirmMessage()
     var email = document.getElementById("contact_form").elements.email.value;
     var phone = document.getElementById("contact_form").elements.phone.value;
     var message = document.getElementById("contact_form").elements.message.value;
+    emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    phoneRegex = /^\d{10}$/;
 
     if(name =="" || email == "" || phone =="" || message == "")
     {
         alert("Please fill out all form criteria.");
+    }
+    else if(!(emailRegex.test(email)))
+    {
+        alert("Incorrect email syntax. Please use correct syntax.");
+    }
+    else if(!(phoneRegex.test(phone)))
+    {
+        alert("Please enter a valid phone number.");
     }
     else
     {

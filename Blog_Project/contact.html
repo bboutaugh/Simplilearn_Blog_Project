@@ -46,9 +46,17 @@
             <div class="col-md-6 contact">
               <h2>Please contact us via the form below and we will get back ASAP:</h2>
               <form id="contact_form">
-                <label for="name">Name: </label><input type="text" name="name" required><br>
-                <label for="email">Email: </label><input type="email" name="email" required><br>
-                <label for="phone">Phone: </label><input type="text" name="phone" required><br>
+                <table>
+                  <tr>
+                    <td> <label for="name">Name: </label></td><td><input type="text" name="name" required></td>
+                  </tr>
+                  <tr>
+                    <td><label for="email">Email: </label></td><td><input type="email" name="email" required></td>
+                  </tr>
+                  <tr>
+                    <td><label for="phone">Phone: </label></td><td><input type="text" name="phone" required></td>
+                  </tr>
+                </table>
                 <label for="message">Message:</label><br><textarea name="message" rows=10 cols="40"></textarea>
                 <br>
                 <button type="button" onclick="confirmMessage()">Submit</button>

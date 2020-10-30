@@ -1,6 +1,5 @@
 body *
 {
-    border: 2px solid red;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -44,12 +43,13 @@ text-decoration:none;
     text-align:center;
     color:gold;
     padding:10px;
+    font-size: 5px;
 }
 
 .header h1
 {
     padding:20px;
-    font-size: 80px;
+    font-size: 55px;
 }
 
 .row
@@ -153,8 +153,74 @@ background-color:rgb(66, 66, 94);
     background-size:cover;
 }
 
+
 /*About Styling*/
 .about_blogs
 {
-    height:100%;
+    padding:5px;
+    margin-bottom:auto;
+    background-color:midnightblue;
+    color:white;
+}
+
+.about_blogs h3
+{
+    padding-bottom:20px;
+    font-size:25px;
+}
+
+.about_blogs svg
+{
+    margin:auto;
+}
+
+.blog_cat
+{
+background-color:rgb(147, 203, 252,0.85);
+margin:0px 10px 10px;
+}
+
+.blog_cat h3
+{
+    color:midnightblue;
+    font-size:30px;
+}
+
+.blog_cat p
+{
+    font-size:15px;
+}
+
+.profile_pic img
+{
+    width:230px;
+    text-align:center;
+    border: 2px solid white;
+}
+
+.admin_desc
+{
+   padding:10px; 
+   border-radius:10px;
+   background-color:rgb(120, 120, 129,0.85);
+   font-size:20px;
+}
+
+.admin_desc i 
+{
+    font-size:22px;
+    padding-right:5px;
+}
+
+.about_bg
+{
+    background-image: url("images/house_tiles.jpg");
+}
+
+.about_header
+{
+    text-align: center;
+    color:midnightblue;
+    font-size:50px;
+    background-color:aliceblue;
 }
