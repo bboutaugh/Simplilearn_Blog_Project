@@ -1,0 +1,88 @@
+Blog Project Plan
+
+Pages(Home, About, Blogs, Contact)
+
++ Home Sections: Introduction, Blog Overview, Suggested External Content
+	#Introduction: What the Blogging site provides, why it exists, how it's maintained and 
+	 contributed to.
+	#Blog Overview: Categories of blogs, featured content, and future developments
+		*(Blog Categories: Programming Languages, Web Technologies, General Web Development Implementation)
+	#Suggested External Content: External Blogs, Related Sites, Sponsoring Organization
+
++ About Sections: Content Overview, Benefits, Site Personel (Administrators, Authors, Sponsor)
+	#Content Overview: Blog categories in detail 
+	#Benefits: Gaining introspection and ideas, build discussion, general learning
+	#Site Personel: Who they are and what they do
+
++ Blogs Sections: Blogs 1 - 4 and Insert Blog Form 
+	#Blog 1: HTML/CSS Animation Tricks
+	#Blog 2: Future of JavaScript
+	#Blog 3: PHP vs JSP
+	#Blog Insertion Form: Add Button => Text Area, Category Selection, and Submit Button => Added Blog
+
++ Contact - Form: Name, Category of Query Selections, Email, Text Input, Message Text Area, Submit Button
+
+-------------------------------------------------------------------------------------
+Blog Project Development Layout
+
+Home Page:
+	+ Navigation: Bootstrap Navbar
+	+ Main Container: Bootstrap = container-fluid
+		#Row 1 Filler Row with 1 Column = col-md-12
+		#Row 2 [Introduction]: 4 Columns => Column1 (Empty), Column2 (Site Overview, etc), Column3 (Empty)
+					=> empty columns = col-md-2 and col-md-6 respectively | content column = col-md-4
+		#Row 3 [Blog Overview]: 2 Columns =>Column1 (Picture), 
+					Column3 (Blog Categories and Future Developments),
+					=> Column1 = col-md-8 | Column2 = col-md-4
+		#Row 4 [Extraneous]: 4 Columns => Column1 (Empty), Column2 (Org Stub), 
+					Column3 (Suggested Sites), Column4 (Empty)
+					=> empty columns = col-md-2 | content columns = col-md-4
+		#Row 5 Filler Row with 1 Column = col-md-12
+	+ Footer: Blog Icon, Org Icon, additional contact link
+
+About Page: 
+	+ Navigation: Bootstrap Navbar
+	+ Main Container: Bootstrap = container-fluid
+		#Row 1 Filler Row with 1 Column = col-md-12
+		#Row 2 [Blog Categories]: 3 Columns => Column1 (Empty), 
+					Column2 Blog Categories: (Programming Languages, Web Tech, Strategy), 
+					Column3 (Site Purpose), Column4 (Empty)
+					=> empty columns = col-md-2 | content column = col-md-8 (3 divs)
+		#Row 3 [About Author]: 3 Columns => Column1 (Empty), 
+					Column2 Personal Description: About myself, Column 3 (Empty)
+					=> empty columns = col-md-2 | content column = col-md-8 (3 divs)
+		#Row 4 Filler Row with 1 Column = col-md-12
+	+ Footer: Blog Icon, Org Icon, additional contact link
+
+Blog Page: 
+	+ Navigation: Bootstrap Navbar
+	+ Main Container: Bootstrap = container-fluid
+		#Row 1 Filler Row with 1 Column = col-md-12
+		#Row 2 [Blog Content]: 3 Columns => Column1 (Empty), 
+					Column2 (Blogs) , Column3 (Empty)
+					=> empty columns = col-md-3 | content column = col-md-6 (5+ divs)
+		#Row 3 Filler Row with 1 Column = col-md-12
+	+ Footer: Blog Icon, Org Icon, additional contact link
+		
+Contact Page:
+	+ Navigation: Bootstrap Navbar
+	+ Main Container: Bootstrap = container-flexible
+		#Row 1 [Contact Form]: 3 Columns => Column1 (Empty), Column2 (Form), Column3 (Empty)
+	+ Footer: Blog Icon, Org Icon, additional contact link
+
+-------------------------------------------------------------------------------------
+
+Citations
+ Abstract background of wall with geometric ornament. Damir Mijailovic. https://www.pexels.com/photo/abstract-background-of-wall-with-geometric-ornament-3695238/
+ Feb 6, 2020.
+
+Multicolored Concrete House. Daria Shevtsova. https://www.pexels.com/photo/multicolored-concrete-house-1030889/ . May 18, 2016.
+				
+Brown Wooden Staircase. Ralfs Eglitis. https://www.pexels.com/photo/brown-wooden-staircase-2762083/ . October 26, 2018.
+
+Light Inside Library. Janko Ferlic. https://www.pexels.com/photo/blur-book-stack-books-bookshelves-590493/ Sept. 20, 2017.
+
+Black Wireless Computer Keyboard Beside Black Ceramic Mug. Bongkarn Thanyakij. https://www.pexels.com/photo/black-wireless-computer-keyboard-beside-black-ceramic-mug-3740725/
+Sept. 30, 2019.	
+
+Photo of Coffee Shop. Scott Webb. https://www.pexels.com/photo/photo-of-coffee-shop-2530586/ . May 16, 2019.
